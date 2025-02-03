@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #edbf85;
+}
+
+.navbar{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    
+}
+
+.btn-area{
+    padding: 10px;
+}
+
+.shift-btn{
+    font-size: 25px;
+    border-width: 0px;
+    background-color: inherit;
+    color: rgba(36, 32, 56,0.5);
+}
+
+.highlight{
+    border-width: 0px 0px 1px 0px;
+    background-color: inherit;
+    color: #242038;
+}
+
+.hide{
+    display: none;
+    /* visibility: hidden; */
+}
